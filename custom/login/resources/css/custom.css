@@ -4,11 +4,11 @@ label{
 }
 
 .col{
-    padding: 5%;
+    padding: 8%;
 }
 
 .logo{
-    background-image : url("../images/Logo.svg");
+    background-image : url("../img/Logo.svg");
     background-repeat : no-repeat;
     background-size : contain;
     width: 60vh;
@@ -29,12 +29,10 @@ label{
 
 
 .custom-button{
-    
     background-color: #41C6A1;
     color: white;
     border-style: none;
     font-weight: bold;
-
 }
 .custom-button:hover{
     background-color: #39d3a7;
@@ -47,8 +45,9 @@ label{
 
 
 
-input[type=text]{
+button{
     font-weight: bold;
+    width: 100%;
 }  
 
 input[type=text],input[type="password"]{

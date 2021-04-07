@@ -3,8 +3,8 @@ label{
     color: #c3ccd1;
 }
 
-.container{
-   padding: 5px;
+.col{
+    padding: 5%;
 }
 
 .logo{
@@ -17,6 +17,7 @@ label{
     margin-top: 5%;
 }
 
+
 .form-control{
     border-color: #c3ccd1;
 }
@@ -25,6 +26,7 @@ label{
     border-color: #41C6A1;
     box-shadow: none;
 }
+
 
 .custom-button{
     
@@ -43,6 +45,8 @@ label{
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(11, 221, 105, 0.6);
 }
 
+
+
 input[type=text]{
     font-weight: bold;
 }  
@@ -55,7 +59,6 @@ input[type=text],input[type="password"]{
 .image-container{
     border-radius: 25px;
     background: #39d3a7;
-    margin: 5px;
     padding: 20px;
     height: 600px; 
 }

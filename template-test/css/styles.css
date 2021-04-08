@@ -44,7 +44,6 @@ label{
 }
 
 
-
 button{
     font-weight: bold;
     width: 100%;
@@ -60,4 +59,20 @@ input[type=text],input[type="password"]{
     background: #39d3a7;
     padding: 20px;
     height: 600px; 
+}
+
+
+
+.pf-c-alert.pf-m-inline::before {
+    position: absolute;
+    top: -1px;
+    top: var(--pf-c-alert--m-inline--before--Top);
+    bottom: -1px;
+    bottom: var(--pf-c-alert--m-inline--before--Bottom);
+    left: 0;
+    width: 3px;
+    width: var(--pf-c-alert--m-inline--before--Width);
+    content: "";
+    background-color: #FFFFFF;
+    background-color: var(--pf-global--BackgroundColor--100);
 }

@@ -3,9 +3,6 @@ label{
     color: #c3ccd1;
 }
 
-.col{
-    padding: 8%;
-}
 
 .logo{
     background-image : url("../img/Logo.svg");
@@ -45,11 +42,11 @@ label{
 
 
 
-button{
+input[type=submit]{
     font-weight: bold;
     width: 100%;
 }  
-
+ 
 input[type=text],input[type="password"]{
     filter: none;
     margin-bottom: 5%;
